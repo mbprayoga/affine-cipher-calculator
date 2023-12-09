@@ -1,5 +1,89 @@
-.App {
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #fff, #b9c1bc);
+}
+
+header {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 20px;
   text-align: center;
+}
+
+.HeaderTitle {
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+.SectionTitle {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.HeaderTitle span {
+  color: #898d74; /* Change the color as needed */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  
+}
+
+.RowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.KeyContainer,
+.EncryptContainer,
+.DecryptContainer {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 660px;
+}
+
+.KeyInput {
+  width: 40px; /* Adjust the width as needed */
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid rgb(41, 38, 38);
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+
+textarea {
+  width: 100%; /* Use 100% to make it responsive */
+  max-width: 663px; /* Set a maximum width if needed */
+  margin-bottom: 10px;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.ResultBox {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #C6EDC3;
+}
+
+.ResultBox label {
+  font-weight: bold;
 }
 
 .App-logo {
